@@ -1,6 +1,4 @@
- 
-
-Function Add-UserToGroup ()
+ Function Add-UserToGroup ()
 {
 
     param
@@ -49,3 +47,5 @@ Function Add-UserToGroup ()
     }
 
 } 
+
+#TODO Add authentication and description
