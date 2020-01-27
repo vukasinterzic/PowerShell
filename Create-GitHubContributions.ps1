@@ -1,3 +1,6 @@
+#Not completed, please do not use, it shouldn't be in public repo yet :D :D :D
+
+
 #This scripts let you fake your GitHub contributions history
 #TODO: Description
 
