@@ -4,6 +4,7 @@
 #Define image, including guide on how to define it
 
 $MaximumContributions = ""
+$StartDate = ""
 
 $Diff = $MaximumContributions / 4
 
