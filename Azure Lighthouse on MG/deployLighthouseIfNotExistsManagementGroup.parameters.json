@@ -1,0 +1,38 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "managedByName": {
+            "value": "AzureIsFun Support"
+        },
+        "managedByDescription": {
+            "value": "AzureIsFun Support"
+        },
+        "managedByTenantId": {
+            "value": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+        },
+        "managedByAuthorizations": {
+            "value": [
+                {
+                    "principalId": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX1",
+                    "principalIdDisplayName": "AzureIsFun_Contributor",
+                    "roleDefinitionId": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX2"
+                },
+                {
+                    "principalId": "bc8f3598-55dd-43b0-83ce-3791e9ef2629",
+                    "principalIdDisplayName": "AzureIsFun_Reader",
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
+                }                
+            ]
+        },
+        "policyDefinitionName": {
+            "value": "AzureIsFun-Enable-Azure-Lighthouse"
+        },
+        "displayName": {
+            "value": "AzureIsFun - Enforce Lighthouse on subscriptions"
+        },
+        "deploymentLocation": {
+            "value": "westus"
+        }
+    }
+}
